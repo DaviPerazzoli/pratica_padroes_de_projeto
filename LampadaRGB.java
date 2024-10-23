@@ -8,7 +8,7 @@ public class LampadaRGB extends Observable implements DispositivoCorAjustavel, D
 
     @Override
     public void ligue() {
-        System.out.println("A lâmpada RBG está desligada"); /* não modifique */
+        System.out.println("A lâmpada RBG está ligada"); /* não modifique */
          notifyObservers();
     }
 
